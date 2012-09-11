@@ -77,11 +77,9 @@
 		A92E856C15FF5F4E00D7E5E4 /* SampleMagicalRecord */ = {
 			isa = PBXGroup;
 			children = (
-				A92E857515FF5F4E00D7E5E4 /* SMRAppDelegate.h */,
-				A92E857615FF5F4E00D7E5E4 /* SMRAppDelegate.m */,
 				A92E857815FF5F4E00D7E5E4 /* MainStoryboard.storyboard */,
-				A92E857B15FF5F4E00D7E5E4 /* SMRViewController.h */,
-				A92E857C15FF5F4E00D7E5E4 /* SMRViewController.m */,
+				A92E858315FF5F8D00D7E5E4 /* AppDelegate */,
+				A92E858415FF5FA100D7E5E4 /* Controllers */,
 				A92E856D15FF5F4E00D7E5E4 /* Supporting Files */,
 			);
 			path = SampleMagicalRecord;
@@ -96,6 +94,24 @@
 				A92E857415FF5F4E00D7E5E4 /* SampleMagicalRecord-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A92E858315FF5F8D00D7E5E4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A92E857515FF5F4E00D7E5E4 /* SMRAppDelegate.h */,
+				A92E857615FF5F4E00D7E5E4 /* SMRAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A92E858415FF5FA100D7E5E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A92E857B15FF5F4E00D7E5E4 /* SMRViewController.h */,
+				A92E857C15FF5F4E00D7E5E4 /* SMRViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
