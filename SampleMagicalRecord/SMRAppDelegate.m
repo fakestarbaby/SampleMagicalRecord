@@ -7,12 +7,29 @@
 //
 
 #import "SMRAppDelegate.h"
+#import "User.h"
 
 @implementation SMRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Set core data stack
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"SampleMagicalRecord.sqlite"];
+
+    // Get context
+    NSManagedObjectContext *context = [NSManagedObjectContext MR_contextForCurrentThread];
+
+    // Insertg
+    User *user = [User MR_createEntity];
+    [user setName:@"fakestarbaby"];
+    [context MR_save];
+
+    // Select
+    NSArray *results = [User MR_findAll];
+    for(User *result in results) {
+        NSLog(@"name : %@", result.name);
+    }
+
     return YES;
 }
 							
