@@ -19,8 +19,8 @@
     // Get context
     NSManagedObjectContext *context = [NSManagedObjectContext MR_contextForCurrentThread];
 
-    // Insertg
-    User *user = [User MR_createEntity];
+    // Insert
+    User *user = [User MR_createInContext:context];
     [user setName:@"fakestarbaby"];
     [context MR_save];
 
