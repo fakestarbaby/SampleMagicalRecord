@@ -15,6 +15,7 @@
 		A92E857715FF5F4E00D7E5E4 /* SMRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E857615FF5F4E00D7E5E4 /* SMRAppDelegate.m */; };
 		A92E857A15FF5F4E00D7E5E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92E857815FF5F4E00D7E5E4 /* MainStoryboard.storyboard */; };
 		A92E857D15FF5F4E00D7E5E4 /* SMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E857C15FF5F4E00D7E5E4 /* SMRViewController.m */; };
+		A92E858815FF608E00D7E5E4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E858615FF604C00D7E5E4 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		A92E857915FF5F4E00D7E5E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A92E857B15FF5F4E00D7E5E4 /* SMRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMRViewController.h; sourceTree = "<group>"; };
 		A92E857C15FF5F4E00D7E5E4 /* SMRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMRViewController.m; sourceTree = "<group>"; };
+		A92E858615FF604C00D7E5E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92E858815FF608E00D7E5E4 /* CoreData.framework in Frameworks */,
 				A92E856715FF5F4E00D7E5E4 /* UIKit.framework in Frameworks */,
 				A92E856915FF5F4E00D7E5E4 /* Foundation.framework in Frameworks */,
 				A92E856B15FF5F4E00D7E5E4 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +70,7 @@
 		A92E856515FF5F4D00D7E5E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A92E858615FF604C00D7E5E4 /* CoreData.framework */,
 				A92E856615FF5F4E00D7E5E4 /* UIKit.framework */,
 				A92E856815FF5F4E00D7E5E4 /* Foundation.framework */,
 				A92E856A15FF5F4E00D7E5E4 /* CoreGraphics.framework */,
@@ -80,6 +84,7 @@
 				A92E857815FF5F4E00D7E5E4 /* MainStoryboard.storyboard */,
 				A92E858315FF5F8D00D7E5E4 /* AppDelegate */,
 				A92E858415FF5FA100D7E5E4 /* Controllers */,
+				A92E858515FF603000D7E5E4 /* Models */,
 				A92E856D15FF5F4E00D7E5E4 /* Supporting Files */,
 			);
 			path = SampleMagicalRecord;
@@ -112,6 +117,13 @@
 				A92E857C15FF5F4E00D7E5E4 /* SMRViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A92E858515FF603000D7E5E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
