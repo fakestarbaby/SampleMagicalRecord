@@ -16,6 +16,9 @@
 		A92E857A15FF5F4E00D7E5E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92E857815FF5F4E00D7E5E4 /* MainStoryboard.storyboard */; };
 		A92E857D15FF5F4E00D7E5E4 /* SMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E857C15FF5F4E00D7E5E4 /* SMRViewController.m */; };
 		A92E858815FF608E00D7E5E4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E858615FF604C00D7E5E4 /* CoreData.framework */; };
+		A92E858B15FF60FA00D7E5E4 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A92E858915FF60FA00D7E5E4 /* Model.xcdatamodeld */; };
+		A92E859015FF61B100D7E5E4 /* _User.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E858D15FF61B100D7E5E4 /* _User.m */; };
+		A92E859115FF61B100D7E5E4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E858F15FF61B100D7E5E4 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,11 @@
 		A92E857B15FF5F4E00D7E5E4 /* SMRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMRViewController.h; sourceTree = "<group>"; };
 		A92E857C15FF5F4E00D7E5E4 /* SMRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMRViewController.m; sourceTree = "<group>"; };
 		A92E858615FF604C00D7E5E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A92E858A15FF60FA00D7E5E4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		A92E858C15FF61B100D7E5E4 /* _User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _User.h; sourceTree = "<group>"; };
+		A92E858D15FF61B100D7E5E4 /* _User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _User.m; sourceTree = "<group>"; };
+		A92E858E15FF61B100D7E5E4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A92E858F15FF61B100D7E5E4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,11 @@
 		A92E858515FF603000D7E5E4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A92E858915FF60FA00D7E5E4 /* Model.xcdatamodeld */,
+				A92E858C15FF61B100D7E5E4 /* _User.h */,
+				A92E858D15FF61B100D7E5E4 /* _User.m */,
+				A92E858E15FF61B100D7E5E4 /* User.h */,
+				A92E858F15FF61B100D7E5E4 /* User.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -193,6 +206,9 @@
 				A92E857315FF5F4E00D7E5E4 /* main.m in Sources */,
 				A92E857715FF5F4E00D7E5E4 /* SMRAppDelegate.m in Sources */,
 				A92E857D15FF5F4E00D7E5E4 /* SMRViewController.m in Sources */,
+				A92E858B15FF60FA00D7E5E4 /* Model.xcdatamodeld in Sources */,
+				A92E859015FF61B100D7E5E4 /* _User.m in Sources */,
+				A92E859115FF61B100D7E5E4 /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +326,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A92E858915FF60FA00D7E5E4 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A92E858A15FF60FA00D7E5E4 /* Model.xcdatamodel */,
+			);
+			currentVersion = A92E858A15FF60FA00D7E5E4 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A92E855915FF5F4D00D7E5E4 /* Project object */;
 }
