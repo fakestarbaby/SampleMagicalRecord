@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92E856715FF5F4E00D7E5E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E856615FF5F4E00D7E5E4 /* UIKit.framework */; };
+		A92E856915FF5F4E00D7E5E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E856815FF5F4E00D7E5E4 /* Foundation.framework */; };
+		A92E856B15FF5F4E00D7E5E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E856A15FF5F4E00D7E5E4 /* CoreGraphics.framework */; };
+		A92E857115FF5F4E00D7E5E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A92E856F15FF5F4E00D7E5E4 /* InfoPlist.strings */; };
+		A92E857315FF5F4E00D7E5E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E857215FF5F4E00D7E5E4 /* main.m */; };
+		A92E857715FF5F4E00D7E5E4 /* SMRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E857615FF5F4E00D7E5E4 /* SMRAppDelegate.m */; };
+		A92E857A15FF5F4E00D7E5E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92E857815FF5F4E00D7E5E4 /* MainStoryboard.storyboard */; };
+		A92E857D15FF5F4E00D7E5E4 /* SMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E857C15FF5F4E00D7E5E4 /* SMRViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A92E856215FF5F4D00D7E5E4 /* SampleMagicalRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMagicalRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92E856615FF5F4E00D7E5E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A92E856815FF5F4E00D7E5E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A92E856A15FF5F4E00D7E5E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A92E856E15FF5F4E00D7E5E4 /* SampleMagicalRecord-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleMagicalRecord-Info.plist"; sourceTree = "<group>"; };
+		A92E857015FF5F4E00D7E5E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A92E857215FF5F4E00D7E5E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A92E857415FF5F4E00D7E5E4 /* SampleMagicalRecord-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleMagicalRecord-Prefix.pch"; sourceTree = "<group>"; };
+		A92E857515FF5F4E00D7E5E4 /* SMRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMRAppDelegate.h; sourceTree = "<group>"; };
+		A92E857615FF5F4E00D7E5E4 /* SMRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMRAppDelegate.m; sourceTree = "<group>"; };
+		A92E857915FF5F4E00D7E5E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A92E857B15FF5F4E00D7E5E4 /* SMRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMRViewController.h; sourceTree = "<group>"; };
+		A92E857C15FF5F4E00D7E5E4 /* SMRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMRViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A92E855F15FF5F4D00D7E5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92E856715FF5F4E00D7E5E4 /* UIKit.framework in Frameworks */,
+				A92E856915FF5F4E00D7E5E4 /* Foundation.framework in Frameworks */,
+				A92E856B15FF5F4E00D7E5E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92E855715FF5F4D00D7E5E4 = {
+			isa = PBXGroup;
+			children = (
+				A92E856C15FF5F4E00D7E5E4 /* SampleMagicalRecord */,
+				A92E856515FF5F4D00D7E5E4 /* Frameworks */,
+				A92E856315FF5F4D00D7E5E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A92E856315FF5F4D00D7E5E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A92E856215FF5F4D00D7E5E4 /* SampleMagicalRecord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A92E856515FF5F4D00D7E5E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A92E856615FF5F4E00D7E5E4 /* UIKit.framework */,
+				A92E856815FF5F4E00D7E5E4 /* Foundation.framework */,
+				A92E856A15FF5F4E00D7E5E4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A92E856C15FF5F4E00D7E5E4 /* SampleMagicalRecord */ = {
+			isa = PBXGroup;
+			children = (
+				A92E857515FF5F4E00D7E5E4 /* SMRAppDelegate.h */,
+				A92E857615FF5F4E00D7E5E4 /* SMRAppDelegate.m */,
+				A92E857815FF5F4E00D7E5E4 /* MainStoryboard.storyboard */,
+				A92E857B15FF5F4E00D7E5E4 /* SMRViewController.h */,
+				A92E857C15FF5F4E00D7E5E4 /* SMRViewController.m */,
+				A92E856D15FF5F4E00D7E5E4 /* Supporting Files */,
+			);
+			path = SampleMagicalRecord;
+			sourceTree = "<group>";
+		};
+		A92E856D15FF5F4E00D7E5E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A92E856E15FF5F4E00D7E5E4 /* SampleMagicalRecord-Info.plist */,
+				A92E856F15FF5F4E00D7E5E4 /* InfoPlist.strings */,
+				A92E857215FF5F4E00D7E5E4 /* main.m */,
+				A92E857415FF5F4E00D7E5E4 /* SampleMagicalRecord-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A92E856115FF5F4D00D7E5E4 /* SampleMagicalRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92E858015FF5F4E00D7E5E4 /* Build configuration list for PBXNativeTarget "SampleMagicalRecord" */;
+			buildPhases = (
+				A92E855E15FF5F4D00D7E5E4 /* Sources */,
+				A92E855F15FF5F4D00D7E5E4 /* Frameworks */,
+				A92E856015FF5F4D00D7E5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleMagicalRecord;
+			productName = SampleMagicalRecord;
+			productReference = A92E856215FF5F4D00D7E5E4 /* SampleMagicalRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A92E855915FF5F4D00D7E5E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SMR;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = fakestarbaby;
+			};
+			buildConfigurationList = A92E855C15FF5F4D00D7E5E4 /* Build configuration list for PBXProject "SampleMagicalRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A92E855715FF5F4D00D7E5E4;
+			productRefGroup = A92E856315FF5F4D00D7E5E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A92E856115FF5F4D00D7E5E4 /* SampleMagicalRecord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A92E856015FF5F4D00D7E5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92E857115FF5F4E00D7E5E4 /* InfoPlist.strings in Resources */,
+				A92E857A15FF5F4E00D7E5E4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A92E855E15FF5F4D00D7E5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92E857315FF5F4E00D7E5E4 /* main.m in Sources */,
+				A92E857715FF5F4E00D7E5E4 /* SMRAppDelegate.m in Sources */,
+				A92E857D15FF5F4E00D7E5E4 /* SMRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A92E856F15FF5F4E00D7E5E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92E857015FF5F4E00D7E5E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A92E857815FF5F4E00D7E5E4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92E857915FF5F4E00D7E5E4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A92E857E15FF5F4E00D7E5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A92E857F15FF5F4E00D7E5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A92E858115FF5F4E00D7E5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleMagicalRecord/SampleMagicalRecord-Prefix.pch";
+				INFOPLIST_FILE = "SampleMagicalRecord/SampleMagicalRecord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A92E858215FF5F4E00D7E5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleMagicalRecord/SampleMagicalRecord-Prefix.pch";
+				INFOPLIST_FILE = "SampleMagicalRecord/SampleMagicalRecord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A92E855C15FF5F4D00D7E5E4 /* Build configuration list for PBXProject "SampleMagicalRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92E857E15FF5F4E00D7E5E4 /* Debug */,
+				A92E857F15FF5F4E00D7E5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92E858015FF5F4E00D7E5E4 /* Build configuration list for PBXNativeTarget "SampleMagicalRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92E858115FF5F4E00D7E5E4 /* Debug */,
+				A92E858215FF5F4E00D7E5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A92E855915FF5F4D00D7E5E4 /* Project object */;
+}
